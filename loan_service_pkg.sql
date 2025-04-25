@@ -1,8 +1,3 @@
-create or replace package loan_service_pkg is
-procedure process_loan_data;
-end loan_service_pkg;
-/
-
 create or replace package body loan_service_pkg is
 procedure process_loan_data is 
 Begin
